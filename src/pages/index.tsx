@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
         src='https://www.figma.com/embed?embed_host=astra&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fdwq7prfTwjVvfSuhQOAYI9%2FPREPTEST-TECHNICAL-TEST%3Fnode-id%3D314%253A342'
         allowFullScreen
       ></iframe>
+      <Link href='/design'>My Design</Link>
     </div>
   )
 }

@@ -93,6 +93,9 @@ module.exports = {
          */
         text: 'text 3s ease infinite'
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif']  
+      },
       keyframes: {
         text: {
           '0%, 100%': {
